@@ -9,7 +9,7 @@ namespace ToDoList.Models
     public class List
     {
         [Key]
-        public int ListID { get; set; } //int tytpe auto-generates ID
+        public int ListID { get; set; } //int type auto-generates ID
         [Display(Name = "Title")]
         public string ListTitle { get; set; }
         public DateTime ListCreateDate { get; set; }
